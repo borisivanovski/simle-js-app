@@ -143,6 +143,7 @@ var pokemonRepository = (function () {
       // hideModal: hideModal
     };
   })();
+  
   pokemonRepository.loadList().then(function () {
     // Now the data is loaded!
     pokemonRepository.getAll().forEach(function (pokemon) {

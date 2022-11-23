@@ -17,6 +17,13 @@
     background-color: var(--primary-color);
   }
 
+  .list {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
 h1, h2{
     text-align: center;
     justify-content: center;
@@ -60,9 +67,3 @@ h5{
 }
 
 
-.list {
-  margin-top: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}

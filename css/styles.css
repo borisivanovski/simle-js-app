@@ -29,13 +29,6 @@ h5{
     color:rgb(255, 208, 0) 
 }
 
-.navbar-brand{
-    padding-left: 100px;
-}
-
-
-
- 
 
 .card {
     position: relative;
@@ -66,5 +59,9 @@ h5{
     transition: all .9s;
 }
 
-
-  
+.list {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

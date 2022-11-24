@@ -24,13 +24,13 @@ Bootstrap
 ## This site was built using GitHub Pages.
 
 The code for the app can always be viewed in a repository like
-[GitHub] (https://github.com/borisivanovski/simle-js-app)
+[GitHub](https://github.com/borisivanovski/simle-js-app)
 
 
 ## Dependencies
 
 Bootstrap 4.3.1 is used for the user interface elements. 
-The [PokeAPI] (https://pokeapi.co/docs/v2) is also used by the project.
+The [PokeAPI](https://pokeapi.co/docs/v2) is also used by the project.
 
 ## User Goals
 
@@ -38,7 +38,7 @@ The [PokeAPI] (https://pokeapi.co/docs/v2) is also used by the project.
 Small Pokédex app to display a list of Pokémon.
 
 
-Live Page App: [Pokedex] (https://borisivanovski.github.io/simle-js-app/) 
+Live Page App: [Pokedex](https://borisivanovski.github.io/simle-js-app/) 
 
 
 

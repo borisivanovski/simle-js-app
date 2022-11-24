@@ -1,10 +1,10 @@
 :root {
-    --primary-color: #90b4a6;
+    --primary-color: #5c9a85;
     --secondary-color: #b3e037;
-    --third-color: #a492e0;
-    --light-grey: #EEEEEE;
+    --third-color: #8f93c9;
+    --dark-green: #285f18;
     --dark-grey: #2b2b2b;
-    --white: white;
+    --white: rgb(248, 248, 248);
     --black: black;
   }
   
@@ -13,7 +13,7 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;
-    color: var(--dark-grey);
+    color: var(--dark-green);
     background-color: var(--primary-color);
   }
 
@@ -24,6 +24,8 @@
     justify-content: center;
   }
 
+  
+
 h1, h2{
     text-align: center;
     justify-content: center;
@@ -31,10 +33,15 @@ h1, h2{
 }
 
 h5{
-    text-align: center;
-    justify-content: center;
-    color:rgb(255, 208, 0) 
+  text-align: center;
+  justify-content: center;
+  color:rgb(255, 208, 0) 
 }
+
+.btn-primary {
+  background-color: #446d23;
+}
+
 
 
 .card {
@@ -46,10 +53,10 @@ h5{
     min-width: 0;
     word-wrap: break-word;
     background-color: var(--third-color);
-    color: var(--light-grey);
+    color: var(--dark-green);
     background-clip: border-box;
-    border: 1px solid rgba(43, 35, 165, 0.125);
-    border-radius: 0.25rem;
+    border: 8px solid rgba(7, 241, 77, 0.125);
+    border-radius: 0.35rem;
     align-items: center;
     align-content: center;
     padding: 15px;
@@ -65,5 +72,7 @@ h5{
 .btn{
     transition: all .9s;
 }
+
+
 
 

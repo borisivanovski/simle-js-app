@@ -96,6 +96,8 @@ var pokemonRepository = (function () {
           console.error(e);
         });
     }
+
+   
     // show the modal content
     function showModal(item) {
       let modalBody = $(".modal-body");
@@ -106,6 +108,7 @@ var pokemonRepository = (function () {
       // modalHeader.empty();
       modalTitle.empty();
       modalBody.empty();
+      modalHeader.empty();
   
       //creating element for name in modal content
       let nameElement = $("<h1>" + item.name + "</h1>");
@@ -149,3 +152,4 @@ var pokemonRepository = (function () {
       pokemonRepository.addListItem(pokemon);
     });
   });
+
